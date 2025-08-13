@@ -1,0 +1,3574 @@
+{
+  "alchform": [
+    {
+      "result_temid": [
+        "6183",
+        "X"
+      ],
+      "name": "가죽 유약",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "단풍나무 수액",
+          "temid": "5002",
+          "num": 3
+        },
+        {
+          "lname": "비상의 흔적",
+          "temid": "5955",
+          "num": 3
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "698",
+        "699"
+      ],
+      "name": "간파의 비약",
+      "list": [
+        {
+          "lname": "폭풍의 오일",
+          "temid": "6602",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 6
+        },
+        {
+          "lname": "송로 버섯",
+          "temid": "5420",
+          "num": 3
+        },
+        {
+          "lname": "고목나무 껍질",
+          "temid": "5008",
+          "num": 2
+        },
+        {
+          "lname": "야만의 흔적",
+          "temid": "5956",
+          "num": 3
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "714",
+        "715"
+      ],
+      "name": "경험의 비약",
+      "list": [
+        {
+          "lname": "광대의 혈액",
+          "temid": "6353",
+          "num": 1
+        },
+        {
+          "lname": "마른갈기풀",
+          "temid": "5404",
+          "num": 7
+        },
+        {
+          "lname": "소나무 수액",
+          "temid": "5003",
+          "num": 5
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "732",
+        "733"
+      ],
+      "name": "고래 힘줄 비약",
+      "list": [
+        {
+          "lname": "대왕 고래 힘줄",
+          "temid": "9729",
+          "num": 1
+        },
+        {
+          "lname": "광대의 혈액",
+          "temid": "6353",
+          "num": 1
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 12
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 5
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "575",
+        "576"
+      ],
+      "name": "고래 힘줄 회복제",
+      "list": [
+        {
+          "lname": "대왕 고래 힘줄",
+          "temid": "9729",
+          "num": 1
+        },
+        {
+          "lname": "생명력 회복제(중)",
+          "temid": "p200",
+          "num": 3
+        },
+        {
+          "lname": "정신력 회복제(중)",
+          "temid": "p200",
+          "num": 3
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 8
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "680",
+        "681"
+      ],
+      "name": "관통의 비약",
+      "list": [
+        {
+          "lname": "타락의 오일",
+          "temid": "6604",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 4
+        },
+        {
+          "lname": "허풍선이 버섯",
+          "temid": "5417",
+          "num": 5
+        },
+        {
+          "lname": "소나무 수액",
+          "temid": "5003",
+          "num": 5
+        },
+        {
+          "lname": "폭력의 흔적",
+          "temid": "5961",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6353",
+        "X"
+      ],
+      "name": "광대의 혈액",
+      "list": [
+        {
+          "lname": "정령의 잎사귀",
+          "temid": "5006",
+          "num": 1
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "늑대 피",
+          "temid": "6214",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "672",
+        "673"
+      ],
+      "name": "광란의 비약",
+      "list": [
+        {
+          "lname": "재생의 오일",
+          "temid": "6601",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 5
+        },
+        {
+          "lname": "삼나무 수액",
+          "temid": "5010",
+          "num": 5
+        },
+        {
+          "lname": "전투의 흔적",
+          "temid": "5958",
+          "num": 3
+        },
+        {
+          "lname": "유령 버섯",
+          "temid": "5414",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "740",
+        "741"
+      ],
+      "name": "그리폰의 비약",
+      "list": [
+        {
+          "lname": "그리폰의 발톱",
+          "temid": "9741",
+          "num": 1
+        },
+        {
+          "lname": "삼나무 수액",
+          "temid": "5010",
+          "num": 6
+        },
+        {
+          "lname": "전투의 흔적",
+          "temid": "5958",
+          "num": 3
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "4076",
+        "X"
+      ],
+      "name": "금속 용해제",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "녹아내린 철 조각",
+          "temid": "4051",
+          "num": 3
+        },
+        {
+          "lname": "거친 석재",
+          "temid": "4006",
+          "num": 4
+        },
+        {
+          "lname": "야만의 흔적",
+          "temid": "5956",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "722",
+        "723"
+      ],
+      "name": "기력의 비약",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "난쟁이 버섯",
+          "temid": "5409",
+          "num": 2
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 5
+        },
+        {
+          "lname": "곰 피",
+          "temid": "6213",
+          "num": 4
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1152",
+        "1154"
+      ],
+      "name": "기술의 비약",
+      "list": [
+        {
+          "lname": "현자의 혈액",
+          "temid": "6355",
+          "num": 2
+        },
+        {
+          "lname": "델로티아",
+          "temid": "5538",
+          "num": 5
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 2
+        },
+        {
+          "lname": "가시나무 수액",
+          "temid": "5023",
+          "num": 5
+        },
+        {
+          "lname": "혼돈의 흔적",
+          "temid": "5951",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "782",
+        "783"
+      ],
+      "name": "나선의 비약",
+      "list": [
+        {
+          "lname": "측백나무 수액",
+          "temid": "5020",
+          "num": 6
+        },
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 3
+        },
+        {
+          "lname": "광대의 혈액",
+          "temid": "6353",
+          "num": 2
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 2
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "684",
+        "685"
+      ],
+      "name": "날개의 비약",
+      "list": [
+        {
+          "lname": "은빛 철쭉",
+          "temid": "5402",
+          "num": 2
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 1
+        },
+        {
+          "lname": "곰 피",
+          "temid": "6213",
+          "num": 4
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 5
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1156",
+        "1159"
+      ],
+      "name": "노동의 비약",
+      "list": [
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 2
+        },
+        {
+          "lname": "정제된 델로티아 시약",
+          "temid": "5606",
+          "num": 2
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 2
+        },
+        {
+          "lname": "가시나무 수액",
+          "temid": "5023",
+          "num": 4
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "777",
+        "778"
+      ],
+      "name": "러니 정령의 비약",
+      "list": [
+        {
+          "lname": "이끼 나무 수액",
+          "temid": "5017",
+          "num": 4
+        },
+        {
+          "lname": "화산갓버섯",
+          "temid": "5517",
+          "num": 2
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 3
+        },
+        {
+          "lname": "붉은 나무혹",
+          "temid": "5011",
+          "num": 5
+        },
+        {
+          "lname": "연보라꽃",
+          "temid": "5526",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5212",
+        "X"
+      ],
+      "name": "마력의 정수",
+      "list": [
+        {
+          "lname": "마력의 열매",
+          "temid": "5211",
+          "num": 2
+        },
+        {
+          "lname": "마른갈기풀",
+          "temid": "5404",
+          "num": 3
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 4
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5301",
+        "X"
+      ],
+      "name": "맑은 액체 시약",
+      "list": [
+        {
+          "lname": "야생 들풀",
+          "temid": "5439",
+          "num": 1
+        },
+        {
+          "lname": "여명초",
+          "temid": "5401",
+          "num": 1
+        },
+        {
+          "lname": "소금",
+          "temid": "p20",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "9779",
+        "X"
+      ],
+      "name": "매혹의 오일",
+      "list": [
+        {
+          "lname": "매혹의 열매",
+          "temid": "5209",
+          "num": 1
+        },
+        {
+          "lname": "정제된 델로티아 시약",
+          "temid": "5606",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 2
+        },
+        {
+          "lname": "천년초",
+          "temid": "5406",
+          "num": 2
+        },
+        {
+          "lname": "단단한 투로족 혈액",
+          "temid": "9778",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5210",
+        "X"
+      ],
+      "name": "매혹의 정수",
+      "list": [
+        {
+          "lname": "매혹의 열매",
+          "temid": "5209",
+          "num": 2
+        },
+        {
+          "lname": "화염비늘꽃",
+          "temid": "5403",
+          "num": 3
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 4
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1161",
+        "X"
+      ],
+      "name": "매혹의 향수",
+      "list": [
+        {
+          "lname": "매혹의 오일",
+          "temid": "9779",
+          "num": 2
+        },
+        {
+          "lname": "빛나는 가루",
+          "temid": "9733",
+          "num": 3
+        },
+        {
+          "lname": "천년초",
+          "temid": "5406",
+          "num": 5
+        },
+        {
+          "lname": "델로티아 정수",
+          "temid": "5535",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "4684",
+        "X"
+      ],
+      "name": "목재 강화제",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "핏빛 나무 옹이",
+          "temid": "5005",
+          "num": 3
+        },
+        {
+          "lname": "전나무 수액",
+          "temid": "5009",
+          "num": 4
+        },
+        {
+          "lname": "대지의 흔적",
+          "temid": "5954",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5214",
+        "X"
+      ],
+      "name": "무결의 정수",
+      "list": [
+        {
+          "lname": "무결의 열매",
+          "temid": "5213",
+          "num": 2
+        },
+        {
+          "lname": "여명초",
+          "temid": "5401",
+          "num": 3
+        },
+        {
+          "lname": "단풍나무 수액",
+          "temid": "5002",
+          "num": 4
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "694",
+        "695"
+      ],
+      "name": "물개의 비약",
+      "list": [
+        {
+          "lname": "난쟁이 버섯",
+          "temid": "5409",
+          "num": 3
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 1
+        },
+        {
+          "lname": "늑대 피",
+          "temid": "6214",
+          "num": 4
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 5
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "688",
+        "689"
+      ],
+      "name": "바람의 비약",
+      "list": [
+        {
+          "lname": "현자의 혈액",
+          "temid": "6355",
+          "num": 1
+        },
+        {
+          "lname": "점쟁이 버섯",
+          "temid": "5407",
+          "num": 5
+        },
+        {
+          "lname": "소나무 수액",
+          "temid": "5003",
+          "num": 5
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "716",
+        "717"
+      ],
+      "name": "방어의 비약",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 6
+        },
+        {
+          "lname": "사슴 피",
+          "temid": "6201",
+          "num": 5
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "4481",
+        "X"
+      ],
+      "name": "보석 연마제",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 2
+        },
+        {
+          "lname": "가공석탄",
+          "temid": "4070",
+          "num": 4
+        },
+        {
+          "lname": "기원의 흔적",
+          "temid": "5957",
+          "num": 2
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 6
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "704",
+        "705"
+      ],
+      "name": "분노의 비약",
+      "list": [
+        {
+          "lname": "난쟁이 버섯",
+          "temid": "5409",
+          "num": 4
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 1
+        },
+        {
+          "lname": "곰 피",
+          "temid": "6213",
+          "num": 4
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6603",
+        "X"
+      ],
+      "name": "불굴의 오일",
+      "list": [
+        {
+          "lname": "광대의 혈액",
+          "temid": "6353",
+          "num": 1
+        },
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 1
+        },
+        {
+          "lname": "자연의 열매",
+          "temid": "5205",
+          "num": 1
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "45265",
+        "X"
+      ],
+      "name": "불완전한 연금석들",
+      "list": [
+        {
+          "lname": "빛나는 가루",
+          "temid": "9733",
+          "num": 10
+        },
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 3
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 5
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 10
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 10
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "712",
+        "713"
+      ],
+      "name": "사신의 비약",
+      "list": [
+        {
+          "lname": "불굴의 오일",
+          "temid": "6603",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 4
+        },
+        {
+          "lname": "하늘 버섯",
+          "temid": "5411",
+          "num": 2
+        },
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 2
+        },
+        {
+          "lname": "기원의 흔적",
+          "temid": "5957",
+          "num": 4
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "708",
+        "709"
+      ],
+      "name": "생명력의 비약",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "은빛 철쭉",
+          "temid": "5402",
+          "num": 3
+        },
+        {
+          "lname": "여우 피",
+          "temid": "6203",
+          "num": 5
+        },
+        {
+          "lname": "생명력 회복제(소)",
+          "temid": "p40",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "749",
+        "750"
+      ],
+      "name": "세월의 비약",
+      "list": [
+        {
+          "lname": "현자의 혈액",
+          "temid": "6355",
+          "num": 1
+        },
+        {
+          "lname": "화염비늘꽃",
+          "temid": "5403",
+          "num": 6
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 2
+        },
+        {
+          "lname": "단풍나무 수액",
+          "temid": "5002",
+          "num": 5
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "668",
+        "669"
+      ],
+      "name": "소생의 비약",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "여명초",
+          "temid": "5401",
+          "num": 3
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "생명력 회복제(소)",
+          "temid": "p40",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "45298",
+        "X"
+      ],
+      "name": "정령석들",
+      "list": [
+        {
+          "lname": "무결의 정령석",
+          "temid": "none",
+          "num": 5
+        },
+        {
+          "lname": "정령의 신비한 가루",
+          "temid": "none",
+          "num": 50
+        },
+        {
+          "lname": "보석 연마제",
+          "temid": "4481",
+          "num": 50
+        },
+        {
+          "lname": "크론석",
+          "temid": "p2000000",
+          "num": 5
+        },
+        {
+          "lname": "정령 친화의 비약",
+          "temid": "none",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1155",
+        "1158"
+      ],
+      "name": "숙련의 비약",
+      "list": [
+        {
+          "lname": "평온의 오일",
+          "temid": "6605",
+          "num": 2
+        },
+        {
+          "lname": "정제된 델로티아 시약",
+          "temid": "5606",
+          "num": 3
+        },
+        {
+          "lname": "가시나무 수액",
+          "temid": "5023",
+          "num": 5
+        },
+        {
+          "lname": "천년초",
+          "temid": "5406",
+          "num": 5
+        },
+        {
+          "lname": "숲의 흔적",
+          "temid": "5960",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5302",
+        "X"
+      ],
+      "name": "순수한 가루 시약",
+      "list": [
+        {
+          "lname": "야생 들풀",
+          "temid": "5439",
+          "num": 1
+        },
+        {
+          "lname": "은빛 철쭉",
+          "temid": "5402",
+          "num": 1
+        },
+        {
+          "lname": "설탕",
+          "temid": "p20",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5603",
+        "X"
+      ],
+      "name": "식물성 맹독",
+      "list": [
+        {
+          "lname": "식충식물의 진액",
+          "temid": "5602",
+          "num": 1
+        },
+        {
+          "lname": "광대 버섯",
+          "temid": "5419",
+          "num": 5
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5604",
+        "X"
+      ],
+      "name": "식물성 화약가루",
+      "list": [
+        {
+          "lname": "식충식물의 가루",
+          "temid": "5601",
+          "num": 1
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "690",
+        "691"
+      ],
+      "name": "신속의 비약",
+      "list": [
+        {
+          "lname": "신수의 혈액",
+          "temid": "6351",
+          "num": 1
+        },
+        {
+          "lname": "화살 버섯",
+          "temid": "5408",
+          "num": 5
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 5
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "735",
+        "X"
+      ],
+      "name": "신속의 향수",
+      "list": [
+        {
+          "lname": "대왕 고래 오일",
+          "temid": "9727",
+          "num": 1
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 4
+        },
+        {
+          "lname": "천년초",
+          "temid": "5406",
+          "num": 6
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 4
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6351",
+        "X"
+      ],
+      "name": "신수의 혈액",
+      "list": [
+        {
+          "lname": "정령의 잎사귀",
+          "temid": "5006",
+          "num": 1
+        },
+        {
+          "lname": "대지의 흔적",
+          "temid": "5954",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "도마뱀 피",
+          "temid": "6208",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6606",
+        "X"
+      ],
+      "name": "심연의 오일",
+      "list": [
+        {
+          "lname": "폭군의 혈액",
+          "temid": "6352",
+          "num": 1
+        },
+        {
+          "lname": "심해의 열매",
+          "temid": "5217",
+          "num": 1
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 2
+        },
+        {
+          "lname": "핏빛 나무 옹이",
+          "temid": "5005",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "771",
+        "X"
+      ],
+      "name": "심해의 비약",
+      "list": [
+        {
+          "lname": "심연의 오일",
+          "temid": "6606",
+          "num": 1
+        },
+        {
+          "lname": "산호 결정",
+          "temid": "6533",
+          "num": 2
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 5
+        },
+        {
+          "lname": "화살 버섯",
+          "temid": "5408",
+          "num": 5
+        },
+        {
+          "lname": "편백나무 수액",
+          "temid": "5012",
+          "num": 5
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "678",
+        "679"
+      ],
+      "name": "아인 사냥의 비약",
+      "list": [
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 1
+        },
+        {
+          "lname": "화살 버섯",
+          "temid": "5408",
+          "num": 4
+        },
+        {
+          "lname": "전나무 수액",
+          "temid": "5009",
+          "num": 4
+        },
+        {
+          "lname": "블랙스톤 가루",
+          "temid": "4901",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "696",
+        "697"
+      ],
+      "name": "암살자의 비약",
+      "list": [
+        {
+          "lname": "재생의 오일",
+          "temid": "6601",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 5
+        },
+        {
+          "lname": "광대 버섯",
+          "temid": "5419",
+          "num": 4
+        },
+        {
+          "lname": "붉은 나무혹",
+          "temid": "5011",
+          "num": 2
+        },
+        {
+          "lname": "기억의 흔적",
+          "temid": "5963",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "676",
+        "677"
+      ],
+      "name": "약탈의 비약",
+      "list": [
+        {
+          "lname": "불굴의 오일",
+          "temid": "6603",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 4
+        },
+        {
+          "lname": "혹 버섯",
+          "temid": "5416",
+          "num": 3
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 4
+        },
+        {
+          "lname": "숲의 흔적",
+          "temid": "5960",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "726",
+        "727"
+      ],
+      "name": "어부의 비약",
+      "list": [
+        {
+          "lname": "현자의 혈액",
+          "temid": "6355",
+          "num": 1
+        },
+        {
+          "lname": "여명초",
+          "temid": "5401",
+          "num": 6
+        },
+        {
+          "lname": "전나무 수액",
+          "temid": "5009",
+          "num": 3
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "734",
+        "X"
+      ],
+      "name": "용기의 향수",
+      "list": [
+        {
+          "lname": "대왕 고래 오일",
+          "temid": "9727",
+          "num": 1
+        },
+        {
+          "lname": "폭력의 흔적",
+          "temid": "5961",
+          "num": 3
+        },
+        {
+          "lname": "핏빛 나무 옹이",
+          "temid": "5005",
+          "num": 6
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 4
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "773",
+        "774"
+      ],
+      "name": "위니 정령의 비약",
+      "list": [
+        {
+          "lname": "이끼 나무 수액",
+          "temid": "5017",
+          "num": 4
+        },
+        {
+          "lname": "파란갓버섯",
+          "temid": "5516",
+          "num": 2
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 3
+        },
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 5
+        },
+        {
+          "lname": "하늘꽃",
+          "temid": "5525",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "702",
+        "703"
+      ],
+      "name": "의지의 비약",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "여명초",
+          "temid": "5401",
+          "num": 4
+        },
+        {
+          "lname": "늑대 피",
+          "temid": "6214",
+          "num": 6
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "670",
+        "671"
+      ],
+      "name": "인간 사냥의 비약",
+      "list": [
+        {
+          "lname": "광대의 혈액",
+          "temid": "6353",
+          "num": 1
+        },
+        {
+          "lname": "점쟁이 버섯",
+          "temid": "5407",
+          "num": 4
+        },
+        {
+          "lname": "단풍나무 수액",
+          "temid": "5002",
+          "num": 4
+        },
+        {
+          "lname": "블랙스톤 가루",
+          "temid": "4901",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "724",
+        "725"
+      ],
+      "name": "일꾼의 비약",
+      "list": [
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 1
+        },
+        {
+          "lname": "은빛 철쭉",
+          "temid": "5402",
+          "num": 6
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 4
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5206",
+        "X"
+      ],
+      "name": "자연의 정수",
+      "list": [
+        {
+          "lname": "자연의 열매",
+          "temid": "5205",
+          "num": 2
+        },
+        {
+          "lname": "점쟁이 버섯",
+          "temid": "5407",
+          "num": 3
+        },
+        {
+          "lname": "단풍나무 수액",
+          "temid": "5002",
+          "num": 4
+        },
+        {
+          "lname": "대지의 흔적",
+          "temid": "5954",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6601",
+        "X"
+      ],
+      "name": "재생의 오일",
+      "list": [
+        {
+          "lname": "신수의 혈액",
+          "temid": "6351",
+          "num": 1
+        },
+        {
+          "lname": "붉은 나무혹",
+          "temid": "5011",
+          "num": 1
+        },
+        {
+          "lname": "홍염의 열매",
+          "temid": "5201",
+          "num": 1
+        },
+        {
+          "lname": "균열의 가루",
+          "temid": "4803",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "706",
+        "707"
+      ],
+      "name": "저항의 비약",
+      "list": [
+        {
+          "lname": "구름 버섯",
+          "temid": "5410",
+          "num": 3
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 1
+        },
+        {
+          "lname": "늑대 피",
+          "temid": "6214",
+          "num": 7
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "781",
+        "X"
+      ],
+      "name": "정령의 향수 비약",
+      "list": [
+        {
+          "lname": "죽은 나무 정수",
+          "temid": "5019",
+          "num": 1
+        },
+        {
+          "lname": "자연의 열매",
+          "temid": "5205",
+          "num": 1
+        },
+        {
+          "lname": "고리 나무 수액",
+          "temid": "5018",
+          "num": 10
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 10
+        },
+        {
+          "lname": "연보라꽃",
+          "temid": "5526",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "710",
+        "711"
+      ],
+      "name": "정신의 비약",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 4
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "정신력 회복제(소)",
+          "temid": "p40",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5606",
+        "X"
+      ],
+      "name": "정제된 델로티아 시약",
+      "list": [
+        {
+          "lname": "델로티아 가루",
+          "temid": "5605",
+          "num": 3
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "753",
+        "754"
+      ],
+      "name": "조련의 비약",
+      "list": [
+        {
+          "lname": "신수의 혈액",
+          "temid": "6351",
+          "num": 1
+        },
+        {
+          "lname": "은빛 철쭉",
+          "temid": "5402",
+          "num": 7
+        },
+        {
+          "lname": "소나무 수액",
+          "temid": "5003",
+          "num": 4
+        },
+        {
+          "lname": "균열의 가루",
+          "temid": "4803",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6354",
+        "X"
+      ],
+      "name": "죄인의 혈액",
+      "list": [
+        {
+          "lname": "핏빛 나무 옹이",
+          "temid": "5005",
+          "num": 1
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "사슴 피",
+          "temid": "6201",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "692",
+        "693"
+      ],
+      "name": "주문의 비약",
+      "list": [
+        {
+          "lname": "폭군의 혈액",
+          "temid": "6352",
+          "num": 1
+        },
+        {
+          "lname": "화염비늘꽃",
+          "temid": "5403",
+          "num": 5
+        },
+        {
+          "lname": "단풍나무 수액",
+          "temid": "5002",
+          "num": 3
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "686",
+        "687"
+      ],
+      "name": "죽음의 비약",
+      "list": [
+        {
+          "lname": "평온의 오일",
+          "temid": "6605",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 6
+        },
+        {
+          "lname": "태고의 버섯",
+          "temid": "5418",
+          "num": 2
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 7
+        },
+        {
+          "lname": "죽음의 흔적",
+          "temid": "5962",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "730",
+        "X"
+      ],
+      "name": "지혈의 비약",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "구름 버섯",
+          "temid": "5410",
+          "num": 1
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "700",
+        "701"
+      ],
+      "name": "집중의 비약",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "구름 버섯",
+          "temid": "5410",
+          "num": 3
+        },
+        {
+          "lname": "야생 들풀",
+          "temid": "5439",
+          "num": 2
+        },
+        {
+          "lname": "곰 피",
+          "temid": "6213",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1157",
+        "1160"
+      ],
+      "name": "철갑의 비약",
+      "list": [
+        {
+          "lname": "불굴의 오일",
+          "temid": "6603",
+          "num": 3
+        },
+        {
+          "lname": "정제된 델로티아 시약",
+          "temid": "5606",
+          "num": 3
+        },
+        {
+          "lname": "가시나무 수액",
+          "temid": "5023",
+          "num": 5
+        },
+        {
+          "lname": "단단한 투로족 혈액",
+          "temid": "9778",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "762",
+        "763"
+      ],
+      "name": "충격의 비약",
+      "list": [
+        {
+          "lname": "광대의 혈액",
+          "temid": "6353",
+          "num": 1
+        },
+        {
+          "lname": "호랑이 버섯",
+          "temid": "5412",
+          "num": 5
+        },
+        {
+          "lname": "삼나무 수액",
+          "temid": "5010",
+          "num": 7
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "664",
+        "665"
+      ],
+      "name": "친화의 비약",
+      "list": [
+        {
+          "lname": "신수의 혈액",
+          "temid": "6351",
+          "num": 1
+        },
+        {
+          "lname": "화염비늘꽃",
+          "temid": "5403",
+          "num": 5
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 6
+        },
+        {
+          "lname": "블랙스톤 가루",
+          "temid": "4901",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "748",
+        "X"
+      ],
+      "name": "칼크의 비약",
+      "list": [
+        {
+          "lname": "도망자 칼크의 표피",
+          "temid": "9736",
+          "num": 1
+        },
+        {
+          "lname": "편백나무 수액",
+          "temid": "5012",
+          "num": 10
+        },
+        {
+          "lname": "혼돈의 흔적",
+          "temid": "5951",
+          "num": 5
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 4
+        },
+        {
+          "lname": "타락의 오일",
+          "temid": "6604",
+          "num": 2
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6604",
+        "X"
+      ],
+      "name": "타락의 오일",
+      "list": [
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 1
+        },
+        {
+          "lname": "정령의 잎사귀",
+          "temid": "5006",
+          "num": 1
+        },
+        {
+          "lname": "태양의 열매",
+          "temid": "5207",
+          "num": 1
+        },
+        {
+          "lname": "어둠의 가루",
+          "temid": "4801",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1178",
+        "X"
+      ],
+      "name": "타락한 불멸의 오일",
+      "list": [
+        {
+          "lname": "투로족의 심장",
+          "temid": "44461",
+          "num": 1
+        },
+        {
+          "lname": "타버린 정령의 잔재",
+          "temid": "5964",
+          "num": 1
+        },
+        {
+          "lname": "재생의 오일",
+          "temid": "6601",
+          "num": 20
+        },
+        {
+          "lname": "불굴의 오일",
+          "temid": "6603",
+          "num": 20
+        },
+        {
+          "lname": "타락의 오일",
+          "temid": "6604",
+          "num": 20
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5208",
+        "X"
+      ],
+      "name": "태양의 정수",
+      "list": [
+        {
+          "lname": "태양의 열매",
+          "temid": "5207",
+          "num": 2
+        },
+        {
+          "lname": "화살 버섯",
+          "temid": "5408",
+          "num": 3
+        },
+        {
+          "lname": "소나무 수액",
+          "temid": "5003",
+          "num": 4
+        },
+        {
+          "lname": "대지의 흔적",
+          "temid": "5954",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5304",
+        "X"
+      ],
+      "name": "투박한 오색 수정",
+      "list": [
+        {
+          "lname": "투명수정",
+          "temid": "4466",
+          "num": 50
+        },
+        {
+          "lname": "진흙수정",
+          "temid": "4467",
+          "num": 50
+        },
+        {
+          "lname": "검은수정",
+          "temid": "4470",
+          "num": 50
+        },
+        {
+          "lname": "푸른수정",
+          "temid": "4483",
+          "num": 50
+        },
+        {
+          "lname": "보라수정",
+          "temid": "4485",
+          "num": 50
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "54032",
+        "X"
+      ],
+      "name": "특상품 꿀단지",
+      "list": [
+        {
+          "lname": "최고급 식용벌꿀",
+          "temid": "7704",
+          "num": 2
+        },
+        {
+          "lname": "풍요의 열매",
+          "temid": "5203",
+          "num": 5
+        },
+        {
+          "lname": "술의 정수",
+          "temid": "9057",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5216",
+        "X"
+      ],
+      "name": "파괴의 정수",
+      "list": [
+        {
+          "lname": "파괴의 열매",
+          "temid": "5215",
+          "num": 2
+        },
+        {
+          "lname": "은빛 철쭉",
+          "temid": "5402",
+          "num": 3
+        },
+        {
+          "lname": "소나무 수액",
+          "temid": "5003",
+          "num": 4
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6605",
+        "X"
+      ],
+      "name": "평온의 오일",
+      "list": [
+        {
+          "lname": "현자의 혈액",
+          "temid": "6355",
+          "num": 1
+        },
+        {
+          "lname": "핏빛 나무 옹이",
+          "temid": "5005",
+          "num": 1
+        },
+        {
+          "lname": "마력의 열매",
+          "temid": "5211",
+          "num": 1
+        },
+        {
+          "lname": "대지의 가루",
+          "temid": "4804",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6352",
+        "X"
+      ],
+      "name": "폭군의 혈액",
+      "list": [
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 1
+        },
+        {
+          "lname": "야만의 흔적",
+          "temid": "5956",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "곰 피",
+          "temid": "6213",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6602",
+        "X"
+      ],
+      "name": "폭풍의 오일",
+      "list": [
+        {
+          "lname": "폭군의 혈액",
+          "temid": "6352",
+          "num": 1
+        },
+        {
+          "lname": "고목나무 껍질",
+          "temid": "5008",
+          "num": 1
+        },
+        {
+          "lname": "풍요의 열매",
+          "temid": "5203",
+          "num": 1
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "761",
+        "X"
+      ],
+      "name": "표지의 시약",
+      "list": [
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 1
+        },
+        {
+          "lname": "매혹 마력의 수정 - 시력",
+          "temid": "p30000",
+          "num": 1
+        },
+        {
+          "lname": "식물성 화약가루",
+          "temid": "5604",
+          "num": 1
+        },
+        {
+          "lname": "끈끈한 액체",
+          "temid": "44084",
+          "num": 1
+        },
+        {
+          "lname": "블랙스톤 가루",
+          "temid": "4901",
+          "num": 5
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5204",
+        "X"
+      ],
+      "name": "풍요의 정수",
+      "list": [
+        {
+          "lname": "풍요의 열매",
+          "temid": "5203",
+          "num": 2
+        },
+        {
+          "lname": "구름 버섯",
+          "temid": "5410",
+          "num": 3
+        },
+        {
+          "lname": "자작나무 수액",
+          "temid": "5004",
+          "num": 4
+        },
+        {
+          "lname": "비상의 흔적",
+          "temid": "5955",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "720",
+        "721"
+      ],
+      "name": "하늘의 비약",
+      "list": [
+        {
+          "lname": "평온의 오일",
+          "temid": "6605",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 6
+        },
+        {
+          "lname": "황제 버섯",
+          "temid": "5413",
+          "num": 1
+        },
+        {
+          "lname": "핏빛 나무 옹이",
+          "temid": "5005",
+          "num": 2
+        },
+        {
+          "lname": "비상의 흔적",
+          "temid": "5955",
+          "num": 4
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "718",
+        "719"
+      ],
+      "name": "학살자의 비약",
+      "list": [
+        {
+          "lname": "타락의 오일",
+          "temid": "6604",
+          "num": 1
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 7
+        },
+        {
+          "lname": "호랑이 버섯",
+          "temid": "5412",
+          "num": 2
+        },
+        {
+          "lname": "정령의 잎사귀",
+          "temid": "5006",
+          "num": 2
+        },
+        {
+          "lname": "대지의 흔적",
+          "temid": "5954",
+          "num": 3
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "729",
+        "X"
+      ],
+      "name": "해독의 비약",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "야생 들풀",
+          "temid": "5439",
+          "num": 1
+        },
+        {
+          "lname": "사슴 피",
+          "temid": "6201",
+          "num": 2
+        },
+        {
+          "lname": "올리브 오일",
+          "temid": "p20",
+          "num": 3
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "6355",
+        "X"
+      ],
+      "name": "현자의 혈액",
+      "list": [
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 1
+        },
+        {
+          "lname": "비상의 흔적",
+          "temid": "5955",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "여우 피",
+          "temid": "6203",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "5202",
+        "X"
+      ],
+      "name": "홍염의 정수",
+      "list": [
+        {
+          "lname": "홍염의 열매",
+          "temid": "5201",
+          "num": 2
+        },
+        {
+          "lname": "난쟁이 버섯",
+          "temid": "5409",
+          "num": 3
+        },
+        {
+          "lname": "물푸레나무 수액",
+          "temid": "5001",
+          "num": 4
+        },
+        {
+          "lname": "비상의 흔적",
+          "temid": "5955",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "728",
+        "X"
+      ],
+      "name": "화상 해제의 비약",
+      "list": [
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 1
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 1
+        },
+        {
+          "lname": "과일",
+          "temid": "p500",
+          "num": 2
+        },
+        {
+          "lname": "야생 들풀",
+          "temid": "5439",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "682",
+        "683"
+      ],
+      "name": "활력의 비약",
+      "list": [
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 1
+        },
+        {
+          "lname": "여우 피",
+          "temid": "6203",
+          "num": 4
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "정신력 회복제(소)",
+          "temid": "p40",
+          "num": 2
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "674",
+        "675"
+      ],
+      "name": "황금손의 비약",
+      "list": [
+        {
+          "lname": "타락의 오일",
+          "temid": "6604",
+          "num": 1
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 4
+        },
+        {
+          "lname": "안개 버섯",
+          "temid": "5415",
+          "num": 4
+        },
+        {
+          "lname": "사냥의 흔적",
+          "temid": "5959",
+          "num": 3
+        },
+        {
+          "lname": "전나무 수액",
+          "temid": "5009",
+          "num": 6
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1200",
+        "X"
+      ],
+      "name": "통찰의 향수",
+      "list": [
+        {
+          "lname": "통찰의 정수",
+          "temid": "9791",
+          "num": 1
+        },
+        {
+          "lname": "기원의 흔적",
+          "temid": "5957",
+          "num": 3
+        },
+        {
+          "lname": "수도사의 가지",
+          "temid": "5007",
+          "num": 3
+        },
+        {
+          "lname": "정제수",
+          "temid": "6656",
+          "num": 3
+        },
+        {
+          "lname": "균열의 가루",
+          "temid": "4803",
+          "num": 5
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1180",
+        "1181"
+      ],
+      "name": "파괴의 비약",
+      "list": [
+        {
+          "lname": "폭풍의 오일",
+          "temid": "6602",
+          "num": 1
+        },
+        {
+          "lname": "사냥의 흔적",
+          "temid": "5959",
+          "num": 3
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 5
+        },
+        {
+          "lname": "화염의 가루",
+          "temid": "4802",
+          "num": 5
+        },
+        {
+          "lname": "설원 삼나무 수액",
+          "temid": "5024",
+          "num": 7
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1184",
+        "1185"
+      ],
+      "name": "끈기의 비약",
+      "list": [
+        {
+          "lname": "평온의 오일",
+          "temid": "6605",
+          "num": 1
+        },
+        {
+          "lname": "숲의 흔적",
+          "temid": "5960",
+          "num": 2
+        },
+        {
+          "lname": "붉은 점박이 광대 버섯",
+          "temid": "5546",
+          "num": 3
+        },
+        {
+          "lname": "맑은 액체 시약",
+          "temid": "5301",
+          "num": 5
+        },
+        {
+          "lname": "세월의 가루",
+          "temid": "4805",
+          "num": 7
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1188",
+        "1189"
+      ],
+      "name": "완력의 비약",
+      "list": [
+        {
+          "lname": "불굴의 오일",
+          "temid": "6603",
+          "num": 1
+        },
+        {
+          "lname": "숲의 흔적",
+          "temid": "5960",
+          "num": 2
+        },
+        {
+          "lname": "망태 버섯",
+          "temid": "5550",
+          "num": 3
+        },
+        {
+          "lname": "순수한 가루 시약",
+          "temid": "5302",
+          "num": 5
+        },
+        {
+          "lname": "대지의 가루",
+          "temid": "4804",
+          "num": 7
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "793",
+        "X"
+      ],
+      "name": "거인의 영약",
+      "list": [
+        {
+          "lname": "분노의 비약",
+          "temid": "704",
+          "num": 3
+        },
+        {
+          "lname": "충격의 비약",
+          "temid": "762",
+          "num": 3
+        },
+        {
+          "lname": "관통의 비약",
+          "temid": "680",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "799",
+        "X"
+      ],
+      "name": "격분의 영약",
+      "list": [
+        {
+          "lname": "파괴의 비약",
+          "temid": "1180",
+          "num": 3
+        },
+        {
+          "lname": "인간 사냥의 비약",
+          "temid": "670",
+          "num": 3
+        },
+        {
+          "lname": "광란의 비약",
+          "temid": "672",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "795",
+        "X"
+      ],
+      "name": "광분의 영약",
+      "list": [
+        {
+          "lname": "심연의 정수",
+          "temid": "9774",
+          "num": 1
+        },
+        {
+          "lname": "아인 사냥의 비약",
+          "temid": "678",
+          "num": 3
+        },
+        {
+          "lname": "광란의 비약",
+          "temid": "672",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "794",
+        "X"
+      ],
+      "name": "야만의 영약",
+      "list": [
+        {
+          "lname": "위니 정령의 비약",
+          "temid": "773",
+          "num": 3
+        },
+        {
+          "lname": "러니 정령의 비약",
+          "temid": "777",
+          "num": 3
+        },
+        {
+          "lname": "나선의 비약",
+          "temid": "782",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "792",
+        "X"
+      ],
+      "name": "야수의 영약",
+      "list": [
+        {
+          "lname": "사신의 비약",
+          "temid": "712",
+          "num": 3
+        },
+        {
+          "lname": "경험의 비약",
+          "temid": "714",
+          "num": 3
+        },
+        {
+          "lname": "의지의 비약",
+          "temid": "702",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "791",
+        "X"
+      ],
+      "name": "신록의 영약",
+      "list": [
+        {
+          "lname": "일꾼의 비약",
+          "temid": "724",
+          "num": 3
+        },
+        {
+          "lname": "세월의 비약",
+          "temid": "749",
+          "num": 3
+        },
+        {
+          "lname": "신속의 비약",
+          "temid": "690",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "798",
+        "X"
+      ],
+      "name": "철갑의 영약",
+      "list": [
+        {
+          "lname": "철갑의 비약",
+          "temid": "1157",
+          "num": 3
+        },
+        {
+          "lname": "생명력의 비약",
+          "temid": "708",
+          "num": 3
+        },
+        {
+          "lname": "의지의 비약",
+          "temid": "702",
+          "num": 3
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "796",
+        "X"
+      ],
+      "name": "질주의 영약",
+      "list": [
+        {
+          "lname": "조련의 비약",
+          "temid": "753",
+          "num": 36
+        },
+        {
+          "lname": "세월의 비약",
+          "temid": "749",
+          "num": 36
+        },
+        {
+          "lname": "날개의 비약",
+          "temid": "684",
+          "num": 36
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 10
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "797",
+        "X"
+      ],
+      "name": "광활한 질주의 영약",
+      "list": [
+        {
+          "lname": "조련의 비약",
+          "temid": "753",
+          "num": 72
+        },
+        {
+          "lname": "세월의 비약",
+          "temid": "749",
+          "num": 72
+        },
+        {
+          "lname": "날개의 비약",
+          "temid": "684",
+          "num": 72
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 20
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "757031",
+        "X"
+      ],
+      "name": "맹렬한 질주의 영약",
+      "list": [
+        {
+          "lname": "질주의 영약",
+          "temid": "796",
+          "num": 4
+        },
+        {
+          "lname": "돌꼬리 강장제",
+          "temid": "none",
+          "num": 1
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        },
+        {
+          "lname": "X",
+          "temid": "none",
+          "num": 0
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1192",
+        "X"
+      ],
+      "name": "신묘한 끈기의 영약",
+      "list": [
+        {
+          "lname": "끈기의 비약",
+          "temid": "1184",
+          "num": 90
+        },
+        {
+          "lname": "기력의 비약",
+          "temid": "722",
+          "num": 90
+        },
+        {
+          "lname": "신속의 비약",
+          "temid": "690",
+          "num": 90
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 30
+        },
+        {
+          "lname": "세월의 옥과",
+          "temid": "9070",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "1194",
+        "X"
+      ],
+      "name": "신묘한 완력의 영약",
+      "list": [
+        {
+          "lname": "완력의 비약",
+          "temid": "1188",
+          "num": 90
+        },
+        {
+          "lname": "기력의 비약",
+          "temid": "722",
+          "num": 90
+        },
+        {
+          "lname": "신속의 비약",
+          "temid": "690",
+          "num": 90
+        },
+        {
+          "lname": "저무는 달의 눈물",
+          "temid": "p100000",
+          "num": 30
+        },
+        {
+          "lname": "세월의 옥과",
+          "temid": "9070",
+          "num": 1
+        }
+      ]
+    },
+    {
+      "result_temid": [
+        "44332",
+        "X"
+      ],
+      "name": "벨의 결정 가루(1~3)",
+      "list": [
+        {
+          "lname": "산호 조각",
+          "temid": "6501",
+          "num": 30
+        },
+        {
+          "lname": "죄인의 혈액",
+          "temid": "6354",
+          "num": 30
+        },
+        {
+          "lname": "푸른 산호",
+          "temid": "4477",
+          "num": 10
+        },
+        {
+          "lname": "빛나는 가루",
+          "temid": "9733",
+          "num": 2
+        },
+        {
+          "lname": "연금석 조각",
+          "temid": "44336",
+          "num": 1
+        }
+      ]
+    }
+  ]
+}
