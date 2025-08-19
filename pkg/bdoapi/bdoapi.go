@@ -6,24 +6,58 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
 	"net/http"
+	"strconv"
+	"strings"
 	"time"
 )
 
-// 사용되는 데이터 형식 구조체
-type Payload struct {
+// 요청 시 Payload 구조체
+type ReqPayload interface {
+	CategoryPayload | MainKeyPayload
+}
+type CategoryPayload struct {
 	KeyType      int `json:"keyType"`
 	MainCategory int `json:"mainCategory"`
 	SubCategory  int `json:"subCategory"`
 }
+type MainKeyPayload struct {
+	KeyType int `json:"keyType"`
+	MainKey int `json:"mainKey"`
+}
+
+// 응답 시 받는 데이터 구조체
+type RespObject interface {
+	MarketListObject | MarketSubListObject
+}
+type MarketListObject struct {
+	ItemID       int64
+	CurrentStock int64
+	TotalTrades  int64
+	BasePrice    int64
+}
+type MarketSubListObject struct {
+	ItemID          int64
+	MinEnhance      int8
+	MaxEnhance      int8
+	BasePrice       int64
+	CurrentStock    int64
+	TotalTrades     int64
+	MinPriceHardCap int64
+	MaxPriceHardCap int64
+	LastTradePrice  int64
+	LastTradeTime   time.Time
+}
+
+// 내부 연산 시 사용되는 구조체
 type ItemGroup struct {
 	ItemID   int
 	ItemName string
 }
 
+// 지정값 하드코딩
 var baseUrl = "https://trade.kr.playblackdesert.com/Trademarket/"
-var PayloadMap = map[string]Payload{
+var PayloadMap = map[string]CategoryPayload{
 	"ore":     {KeyType: 0, MainCategory: 25, SubCategory: 1},
 	"plants":  {KeyType: 0, MainCategory: 25, SubCategory: 2},
 	"seed":    {KeyType: 0, MainCategory: 25, SubCategory: 3},
@@ -125,56 +159,84 @@ var itemGroupMap = map[string][]ItemGroup{
 // 	ItemGroup []int
 // }
 
-// func (c *innerBDOAPIObject) SetReq(category string) *http.Client {
-func GetMarketList(category string) (string, error) {
-	targetUrl := baseUrl + "GetWorldMarketList"
-	body := PayloadMap[category]
-	b, err := json.Marshal(body)
+func doRequest[T ReqPayload](targetAPI string, payload T) (string, error) {
+	targetUrl := baseUrl + targetAPI
+	b, err := json.Marshal(payload)
 	if err != nil {
-		log.Fatal(err)
 		return "", err
 	}
+
 	req, err := http.NewRequest("POST", targetUrl, bytes.NewReader(b))
 	if err != nil {
-		log.Fatal(err)
 		return "", err
 	}
+
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("User-Agent", "BlackDesert")
-
 	client := &http.Client{Timeout: 10 * time.Second}
-
 	resp, err := client.Do(req)
 	if err != nil {
-		log.Fatal(err)
 		return "", err
 	}
 	defer resp.Body.Close()
 
 	data, err := io.ReadAll(resp.Body)
 	if err != nil {
-		log.Fatal(err)
-		return "", err
-	}
-	unpackedData, err := hfm.UnpackBytes(data)
-	if err != nil {
-		log.Fatal(err)
 		return "", err
 	}
 
-	fmt.Println(unpackedData)
+	unpackedData, err := hfm.UnpackBytes(data)
+	if err != nil {
+		return "", err
+	}
+
 	return unpackedData, nil
 }
 
-func apitest() (int, error) {
-	GetMarketList("test")
+func doParsing[T RespObject](record string, obj T) (T, error) {
+	fs := strings.Split(record, "-")
+}
 
-	test := []byte{0x00}
-	response, err := hfm.UnpackBytes(test)
+// func (c *innerBDOAPIObject) SetReq(category string) *http.Client {
+func GetMarketList(category string) ([]MarketListObject, error) {
+	marketListRawStr, err := doRequest("GetWorldMarketList", PayloadMap[category])
 	if err != nil {
-		fmt.Println("beep!")
+		return nil, fmt.Errorf("wrong request: [GetWorldMarketList] %s", category)
 	}
-	fmt.Println(response)
-	r := 1
-	return r, err
+
+	parts := strings.Split(marketListRawStr, "|")
+	out := make([]MarketListObject, 0, len(parts))
+
+	for idx, rec := range parts {
+		if rec == "" {
+			continue
+		}
+		fs := strings.SplitN(rec, "-", 4)
+		if len(fs) != 4 {
+			return nil, fmt.Errorf("[%s] id(%d): wrong format... [%s]", category, idx, rec)
+		}
+		itemID, err := strconv.ParseInt(fs[0], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: ItemID: %w", idx, err)
+		}
+		curr, err := strconv.ParseInt(fs[1], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: CurrentStock: %w", idx, err)
+		}
+		total, err := strconv.ParseInt(fs[2], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: TotalTrades: %w", idx, err)
+		}
+		price, err := strconv.ParseInt(fs[3], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: BasePrice: %w", idx, err)
+		}
+		out = append(out, MarketListObject{
+			ItemID:       itemID,
+			CurrentStock: curr,
+			TotalTrades:  total,
+			BasePrice:    price,
+		})
+	}
+	return out, nil
 }
