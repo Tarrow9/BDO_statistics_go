@@ -256,7 +256,7 @@ func GetMarketSubList(mainkey int) ([]MarketSubListObject, error) {
 		}
 		fs := strings.SplitN(rec, "-", 10)
 		if len(fs) != 10 {
-			return nil, fmt.Errorf("[%s] id(%d): wrong format... [%s]", mainkey, idx, rec)
+			return nil, fmt.Errorf("[%d] id(%d): wrong format... [%s]", mainkey, idx, rec)
 		}
 		itemID, err := strconv.ParseInt(fs[0], 10, 64)
 		if err != nil {
