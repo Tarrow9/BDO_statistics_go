@@ -2,9 +2,10 @@
     nope
 
 - market_list
-    현재 재고
-    총 거래량
+    * 현재 재고
+    * 총 거래량
     중앙가격
+  -> 2분마다 거래량 연산 시 사용
 
 - market_sublist
     강화최소
@@ -20,7 +21,7 @@
 - search_list
     market_list와 동일, api요청형식만 다름(이건 검색)
 
-- bidding_info_list
+- bidding_info_list -> (계산기 들어갔을 때만)
     가격
     해당가격의 구매대기
     해당가격의 판매대기
@@ -44,13 +45,13 @@
 items (row수 정적, 2~6분(혹은 롤링)마다 갱신)
   - item_id
   - item_attr(json)
-  - 재고수/market_sublist (구매가능 flag)
-  - 구매 시 가격/bidding_info_list
-  - 판매 시 가격/bidding_info_list
+  - 재고수/market_list (구매가능 flag)
+  - ==========================================구매 시 가격/bidding_info_list
+  - ==========================================판매 시 가격/bidding_info_list
   - 최근 거래가/market_sublist
   - 총거래량/market_sublist
-  - 총 구매대기/bidding_info_list
-  - 총 판매대기/bidding_info_list
+  - ==========================================총 구매대기/bidding_info_list
+  - ==========================================총 판매대기/bidding_info_list
 
 items_ts (row수 동적, 위테이블 주기마다 추가) [기간 1개월]
   - item_id

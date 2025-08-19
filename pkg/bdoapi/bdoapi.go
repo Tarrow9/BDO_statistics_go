@@ -37,16 +37,16 @@ type MarketListObject struct {
 	BasePrice    int64
 }
 type MarketSubListObject struct {
-	ItemID          int64
-	MinEnhance      int8
-	MaxEnhance      int8
-	BasePrice       int64
-	CurrentStock    int64
-	TotalTrades     int64
-	MinPriceHardCap int64
-	MaxPriceHardCap int64
-	LastTradePrice  int64
-	LastTradeTime   time.Time
+	ItemID int64
+	// MinEnhance      int8
+	// MaxEnhance      int8
+	// BasePrice       int64
+	CurrentStock int64
+	TotalTrades  int64
+	// MinPriceHardCap int64
+	// MaxPriceHardCap int64
+	LastTradePrice int64
+	// LastTradeTime   time.Time
 }
 
 // 내부 연산 시 사용되는 구조체
@@ -193,9 +193,9 @@ func doRequest[T ReqPayload](targetAPI string, payload T) (string, error) {
 	return unpackedData, nil
 }
 
-func doParsing[T RespObject](record string, obj T) (T, error) {
-	fs := strings.Split(record, "-")
-}
+// func doParsing[T RespObject](record string, obj T) (T, error) {
+// 	fs := strings.Split(record, "-")
+// }
 
 // func (c *innerBDOAPIObject) SetReq(category string) *http.Client {
 func GetMarketList(category string) ([]MarketListObject, error) {
@@ -236,6 +236,50 @@ func GetMarketList(category string) ([]MarketListObject, error) {
 			CurrentStock: curr,
 			TotalTrades:  total,
 			BasePrice:    price,
+		})
+	}
+	return out, nil
+}
+
+func GetMarketSubList(mainkey int) ([]MarketSubListObject, error) {
+	marketSubListRawStr, err := doRequest("GetWorldMarketSubList", MainKeyPayload{KeyType: 0, MainKey: mainkey})
+	if err != nil {
+		return nil, fmt.Errorf("wrong request: [GetWorldMarketSubList] %d", mainkey)
+	}
+
+	parts := strings.Split(marketSubListRawStr, "|")
+	out := make([]MarketSubListObject, 0, len(parts))
+
+	for idx, rec := range parts {
+		if rec == "" {
+			continue
+		}
+		fs := strings.SplitN(rec, "-", 10)
+		if len(fs) != 10 {
+			return nil, fmt.Errorf("[%s] id(%d): wrong format... [%s]", mainkey, idx, rec)
+		}
+		itemID, err := strconv.ParseInt(fs[0], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: ItemID: %w", idx, err)
+		}
+		curr, err := strconv.ParseInt(fs[4], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: CurrentStock: %w", idx, err)
+		}
+		total, err := strconv.ParseInt(fs[5], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: TotalTrades: %w", idx, err)
+		}
+		price, err := strconv.ParseInt(fs[8], 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("record %d: LastTradePrice: %w", idx, err)
+		}
+
+		out = append(out, MarketSubListObject{
+			ItemID:         itemID,
+			CurrentStock:   curr,
+			TotalTrades:    total,
+			LastTradePrice: price,
 		})
 	}
 	return out, nil
