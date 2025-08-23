@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"math"
 	"net/http"
 	"strconv"
 	"strings"
@@ -14,7 +15,7 @@ import (
 
 // 요청 시 Payload 구조체
 type ReqPayload interface {
-	CategoryPayload | MainKeyPayload
+	CategoryPayload | MainKeyPayload | MainSubKeyPayload
 }
 type CategoryPayload struct {
 	KeyType      int `json:"keyType"`
@@ -24,6 +25,11 @@ type CategoryPayload struct {
 type MainKeyPayload struct {
 	KeyType int `json:"keyType"`
 	MainKey int `json:"mainKey"`
+}
+type MainSubKeyPayload struct {
+	KeyType int `json:"keyType"`
+	MainKey int `json:"mainKey"`
+	SubKey  int `json:"subKey"`
 }
 
 // 응답 시 받는 데이터 구조체
@@ -53,6 +59,11 @@ type MarketSubListObject struct {
 type ItemGroup struct {
 	ItemID   int
 	ItemName string
+}
+type BiddingOrder struct {
+	Price int64
+	Sale  int64
+	Buy   int64
 }
 
 // 지정값 하드코딩
@@ -241,6 +252,7 @@ func GetMarketList(category string) ([]MarketListObject, error) {
 	return out, nil
 }
 
+// list는 강화단계별로 나뉘어져 있음
 func GetMarketSubList(mainkey int) ([]MarketSubListObject, error) {
 	marketSubListRawStr, err := doRequest("GetWorldMarketSubList", MainKeyPayload{KeyType: 0, MainKey: mainkey})
 	if err != nil {
@@ -283,4 +295,57 @@ func GetMarketSubList(mainkey int) ([]MarketSubListObject, error) {
 		})
 	}
 	return out, nil
+}
+
+func GetBiddingInfoList(mainkey int, grade int) (int64, int64, error) {
+	/* 계산기 내부에서 사용 */
+	biddingInfoRawStr, err := doRequest("GetBiddingInfoList", MainSubKeyPayload{KeyType: 0, MainKey: mainkey, SubKey: grade})
+	if err != nil {
+		return -1, -1, fmt.Errorf("wrong request: [GetBiddingInfoList] %d, %d", mainkey, grade)
+	}
+	var orders []BiddingOrder
+
+	// 문자열 파싱
+	parts := strings.Split(biddingInfoRawStr, "|")
+	for _, bid := range parts {
+		if bid == "" {
+			continue
+		}
+		parts := strings.Split(bid, "-")
+		if len(parts) != 3 {
+			continue
+		}
+
+		price, err := strconv.ParseInt(parts[0], 10, 64)
+		if err != nil {
+			return -1, -1, fmt.Errorf("record %d: Price: %w", mainkey, err)
+		}
+		sale, err := strconv.ParseInt(parts[1], 10, 64)
+		if err != nil {
+			return -1, -1, fmt.Errorf("record %d: Sale: %w", mainkey, err)
+		}
+		buy, err := strconv.ParseInt(parts[2], 10, 64)
+		if err != nil {
+			return -1, -1, fmt.Errorf("record %d: Buy: %w", mainkey, err)
+		}
+		orders = append(orders, BiddingOrder{Price: price, Sale: sale, Buy: buy})
+	}
+
+	// 최저 판매가 & 최고 매수가 찾기
+	minSale := int64(math.MaxInt64)
+	maxBuy := int64(0)
+
+	for _, o := range orders {
+		if o.Sale > 0 && o.Price < minSale {
+			minSale = o.Price
+		}
+		if o.Buy > 0 && o.Price > maxBuy {
+			maxBuy = o.Price
+		}
+	}
+
+	if minSale == int64(math.MaxInt64) {
+		minSale = 0 // 판매 대기 없음
+	}
+	return minSale, maxBuy, nil
 }

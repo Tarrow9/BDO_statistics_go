@@ -6,11 +6,10 @@ import (
 )
 
 func main() {
-	list, err := bdoapi.GetMarketList("ore")
+	minSale, maxBuy, err := bdoapi.GetBiddingInfoList(15720, 0)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
-	fmt.Printf("parsed %d items\n", len(list))
-	fmt.Printf("%+v\n", list[0]) // 첫 아이템 출력 예시
+	fmt.Printf("minSale: %d, maxBuy: %d\n", minSale, maxBuy)
 }
