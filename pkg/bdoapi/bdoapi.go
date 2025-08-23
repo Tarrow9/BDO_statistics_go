@@ -196,8 +196,38 @@ func doRequest[T ReqPayload](targetAPI string, payload T) (string, error) {
 		return "", err
 	}
 
+	return string(data), nil
+}
+
+func doRequestUnpack[T ReqPayload](targetAPI string, payload T) (string, error) {
+	targetUrl := baseUrl + targetAPI
+	b, err := json.Marshal(payload)
+	if err != nil {
+		return "", err
+	}
+
+	req, err := http.NewRequest("POST", targetUrl, bytes.NewReader(b))
+	if err != nil {
+		return "", err
+	}
+
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("User-Agent", "BlackDesert")
+	client := &http.Client{Timeout: 10 * time.Second}
+	resp, err := client.Do(req)
+	if err != nil {
+		return "", err
+	}
+	defer resp.Body.Close()
+
+	data, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return "", err
+	}
+
 	unpackedData, err := hfm.UnpackBytes(data)
 	if err != nil {
+		fmt.Println("failed to unpack data:", err)
 		return "", err
 	}
 
@@ -210,7 +240,7 @@ func doRequest[T ReqPayload](targetAPI string, payload T) (string, error) {
 
 // func (c *innerBDOAPIObject) SetReq(category string) *http.Client {
 func GetMarketList(category string) ([]MarketListObject, error) {
-	marketListRawStr, err := doRequest("GetWorldMarketList", PayloadMap[category])
+	marketListRawStr, err := doRequestUnpack("GetWorldMarketList", PayloadMap[category])
 	if err != nil {
 		return nil, fmt.Errorf("wrong request: [GetWorldMarketList] %s", category)
 	}
@@ -259,7 +289,13 @@ func GetMarketSubList(mainkey int) ([]MarketSubListObject, error) {
 		return nil, fmt.Errorf("wrong request: [GetWorldMarketSubList] %d", mainkey)
 	}
 
-	parts := strings.Split(marketSubListRawStr, "|")
+	var respMap map[string]interface{}
+	if err := json.Unmarshal([]byte(marketSubListRawStr), &respMap); err != nil {
+		return nil, fmt.Errorf("failed to unmarshal: [GetWorldMarketSubList] %d", mainkey)
+	}
+
+	resultMsg := respMap["resultMsg"].(string)
+	parts := strings.Split(resultMsg, "|")
 	out := make([]MarketSubListObject, 0, len(parts))
 
 	for idx, rec := range parts {
@@ -299,7 +335,7 @@ func GetMarketSubList(mainkey int) ([]MarketSubListObject, error) {
 
 func GetBiddingInfoList(mainkey int, grade int) (int64, int64, error) {
 	/* 계산기 내부에서 사용 */
-	biddingInfoRawStr, err := doRequest("GetBiddingInfoList", MainSubKeyPayload{KeyType: 0, MainKey: mainkey, SubKey: grade})
+	biddingInfoRawStr, err := doRequestUnpack("GetBiddingInfoList", MainSubKeyPayload{KeyType: 0, MainKey: mainkey, SubKey: grade})
 	if err != nil {
 		return -1, -1, fmt.Errorf("wrong request: [GetBiddingInfoList] %d, %d", mainkey, grade)
 	}
